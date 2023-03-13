@@ -1,0 +1,20 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color-bg-header);
+	padding: 20px;
+}
+.toggleButton {
+	background-color: transparent;
+}
+.filterGroup {
+	display: flex;
+	gap: 0.3rem;
+}
+.filterGroup li {
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.filter.selected {
+	border-bottom: 2px solid red;
+}

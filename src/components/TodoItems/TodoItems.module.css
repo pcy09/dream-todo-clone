@@ -1,0 +1,19 @@
+.section {
+	background-color: var(--color-bg-section);
+	padding: 20px;
+	flex: 1 1 auto;
+	overflow-y: scroll;
+}
+.todoGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.todoGroup li {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.todoGroup li label {
+	flex: 1 1 auto;
+}
