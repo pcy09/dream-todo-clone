@@ -9,7 +9,7 @@ export default function TodoList() {
 	const handleAdd = (todo) => {
 		setTodos([...todos, todo]);
 	};
-	const [filters, setFilters] = useState(["all", "active", "completed"]);
+	const filters = ["all", "active", "completed"];
 	const [filter, setFilter] = useState(filters[0]);
 	const filterChange = (e) => {
 		setFilter(e.target.textContent);
